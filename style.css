@@ -36,6 +36,11 @@ nav {
   border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: #469667;
+  transition: 1s;
 }
 
 /* Hero section */
@@ -95,7 +100,10 @@ nav {
   color: #fff;
   cursor: pointer;
 }
-
+.primary:hover {
+  background: #469667;
+  transition: 1s;
+}
 .secondary {
   background: transparent;
   border: 1px solid #94a3b8;
@@ -104,7 +112,15 @@ nav {
   color: #fff;
   cursor: pointer;
 }
-
+.secondary:hover {
+  background: #30b868;
+  border: 1px solid #94a3b8;
+  padding: 12px 22px;
+  transition: 1s;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
 /* service section */
 
 .problem-section {
@@ -249,7 +265,7 @@ nav {
 
 .cta-btn {
   display: inline-block;
-  background: #469165;
+  background: #30b868;
   color: #fff;
   padding: 12px 26px;
   border-radius: 6px;
@@ -259,7 +275,8 @@ nav {
 }
 
 .cta-btn:hover {
-  background: #5bad7e;
+  background: #469667;
+  transition: 1s;
 }
 
 .cta-section small {
@@ -304,8 +321,10 @@ nav {
 }
 
 .icons a:hover {
-  background: #fff;
+  background: #30b868;
   color: #061c2d;
+  transition: 1s;
+  color: #fff;
 }
 
 .copyright {
